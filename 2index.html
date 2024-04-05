@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Guess The Word</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<label id="name1">:</label><span id="name1score"></span>
+		<br>
+		<label id="name2">:</label><span id="name2score"></span>
+		<center>
+			<h2 style="color: white;">Guess The Word!</h2>
+
+			<h3>Question Turn - <span id="questionturn"></span></h3>
+			<h3>Answer Turn - <span id="answerturn"></span></h3>
+			<br>
+			<div id="output" class="col-lg-6"></div>
+			<br>
+<br>
+			<label><b style="color: rgb(3, 210, 221)">Number 1</b></label>
+			<br>
+			<input type="number" class="form-control" id="number1" placeholder="Number">
+			<br>
+			<br>
+			<label> <b style="color: rgb(3, 210, 221)">Number 2</b></label>
+			<br>
+			<input type="number" class="form-control" id="number2" placeholder="Number">
+			<br>
+			<br>
+			<button class="btn-success btn" style="width:30% ;" onclick="send()">Send</button>
+		</center>
+	</div>
+
+	<script src="2main.js"></script>
+</body>
+
+</html>
